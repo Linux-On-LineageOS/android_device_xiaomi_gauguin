@@ -183,3 +183,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/xiaomi/gauguin/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
